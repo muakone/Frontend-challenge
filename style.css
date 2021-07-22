@@ -1,0 +1,254 @@
+body {
+    background-color: hsl(217, 28%, 15%);
+    margin: 0px;
+    color: hsl(0, 0%, 100%);
+    background-image: url(./images/bg-curvy-desktop.svg);
+    background-position: 0px 510px;
+    background-size: 84em 350px;
+    background-repeat: no-repeat;
+    line-height: 25px;
+    
+}
+p, b {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.nav-tab {
+    display: flex;
+    margin: 35px 50px 0px 35px;
+    justify-content: space-between;
+    
+}
+.righttab{
+    display: flex;
+}
+.righttab p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    margin-left: 25px;
+    font-size: 14px;
+}
+.firstclass {
+    text-align: center;
+    margin-top: 30px;
+}
+.center {
+    max-width: 500px;
+    text-align: center;
+    margin-left: 450px;
+}
+.btn {
+    width: 200px;
+    height: 40px;
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    border-radius: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+.first {
+    margin-left: 120px; 
+}
+.btn h5 {
+    padding-top: 10px;
+}
+
+.container {
+    background-color: hsl(218, 28%, 13%);
+    margin-top: 130px;
+    display: block;
+    text-align: center;
+}
+.secondclass {
+    display: grid;
+    grid-template-columns: 480px 50px;
+    grid-gap: -50px;
+    justify-content: baseline;
+    margin-left: 250px;
+}
+.f-r {
+   width: 345px;
+   padding: 0px 0px 40px 0px;
+}
+.s-r {
+    width: 370px;
+    padding:0px 0px 30px 0px;
+}
+.thirdclass {
+    display: flex;
+    margin: 30px 0px 20px 180px;
+}
+.right {
+    max-width: 500px;
+    text-align: start;
+    margin: 65px 0px 0px  50px;
+}
+.right h2 {
+    max-width: 250px;
+}
+.underline {
+    color: hsl(176, 68%, 64%);
+    opacity: 70%;
+}
+h1 {
+    width: 140px;
+    height: 0px;
+    border: solid hsl(176, 68%, 64%) 1px;
+    background-color: hsl(176, 68%, 64%);
+    border-radius: 10%;
+    margin-top: -12px;
+    opacity: 70%;
+}
+.fourthclass {
+    display: flex;
+    margin-top: 90px;
+    justify-content: center;
+}
+.box {
+    width: 310px;
+    height: 175px;
+    background-color: hsl(219, 30%, 18%);
+    border: solid hsl(219, 30%, 18%) 1px;
+    border-radius: 5px;
+    margin-left: 30px;
+    padding: 10px;
+    text-align: start;
+    box-shadow: hsl(217, 28%, 15%) 10px 10px 10px;
+    line-height: 25px;
+}
+.box p {
+    max-width: 290px;
+}
+.fourthclass img {
+    margin-right: -75px;
+    margin-top: -35px;
+}
+.testimonial > img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.testimonial {
+    display: flex;
+}
+.author {
+    margin-left: 90px;
+    margin-top: 10px;
+    line-height: 5px;
+}
+
+.signup {
+    width: 750px;
+    height: 220px;
+    background-color: hsl(217, 28%, 15%);
+    border-radius: 5px;
+    margin-left: 200px;
+    position: relative;
+    z-index: 5;
+    top: 5em;
+    left: 60px;
+    padding: 20px;
+}
+.signin {
+    max-width: 610px;
+    height: 170px;
+    text-align: center;
+    margin-left: 60px;
+}
+.input {
+    margin-top: 50px;
+    display: flex;
+    max-width: 650px;
+    text-align: center;
+}
+input {
+    width: 400px;
+    height: 45px;
+    border-radius: 30px;
+}
+.second {
+    height: 45px; 
+    margin-left: 17px;
+}
+.second h4 {
+    margin-top: 12px;
+    text-align: center;
+}
+.footer {
+    height: 400px;
+    background-color: hsl(216, 53%, 9%);
+    position: relative;
+    z-index: 1;
+}
+.information {
+    padding: 90px 0px 0px 150px;
+}
+.infocenter {
+    display: flex;
+}
+.Contacts {
+    width: 700px;
+    display: flex;
+    grid-gap: 40px;
+}
+.location {
+    line-height: 30px;
+    display: flex;
+    grid-gap: 15px;
+    max-width: 330px;
+}
+.location img {
+    margin-top: 25px;
+}
+.phone {
+    display: flex;
+    grid-gap: 25px;
+}
+.phone img {
+    margin-top: 18px;
+}
+.mail {
+    display: flex;
+    grid-gap: 25px;
+}
+.mail img {
+    margin-top: 18px;
+}
+.ourinfo {
+    display: flex;
+    grid-gap: 60px;
+}
+
+.hide {
+    color: hsl(0, 100%, 63%);
+    margin-left: -600px;
+    margin-top: 40px;
+    visibility: hidden;
+}
+h3, h2, h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+h2 {
+    font-size: 25px;
+}
+
+.righttab p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.underline:hover {
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+.btn:active {
+    background-image: linear-gradient(hsl(176, 68%, 64%),hsl(176, 68%, 64%));  
+    cursor: pointer;
+}
+.second:active + .hide {
+    display: block;
+    visibility: visible;
+}
+
+
