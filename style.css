@@ -3,7 +3,7 @@ body {
     margin: 0px;
     color: hsl(0, 0%, 100%);
     background-image: url(./images/bg-curvy-desktop.svg);
-    background-position: 0px 510px;
+    background-position: 0px 32em;
     background-size: 84em 350px;
     background-repeat: no-repeat;
     line-height: 25px;
@@ -312,12 +312,11 @@ h2 {
 @media(max-width:768px) {
     body {
         background-image: url(./images/bg-curvy-mobile.svg);
-        background-size: 733px 26em;
+        background-size: 600px 390px;
         background-position: -120px 450px;
         margin: 0;
     }
     .container {
-        width: 100vw;
         background-color: hsl(218, 28%, 13%);
         display: flex;
         flex-direction: column;
@@ -326,6 +325,7 @@ h2 {
         align-items: center;
         padding-top: 70px;
         margin-top: -1px;
+        margin: 0px;
     }
     .center {
         max-width: 360px;
