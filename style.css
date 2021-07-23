@@ -9,11 +9,17 @@ body {
     line-height: 25px;
     
 }
-p, b {
+p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 14px;
 }
+b {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+
 .nav-tab {
     display: flex;
     margin: 35px 50px 0px 35px;
@@ -50,7 +56,8 @@ p, b {
     margin-left: 120px; 
 }
 .btn h5 {
-    padding-top: 10px;
+    padding-top: 9px;
+    font-size: 15px;
 }
 
 .container {
@@ -115,19 +122,22 @@ h1 {
     text-align: start;
     box-shadow: hsl(217, 28%, 15%) 10px 10px 10px;
     line-height: 25px;
+    position: relative;
 }
 .box p {
     max-width: 290px;
 }
-.fourthclass img {
-    margin-right: -75px;
-    margin-top: -35px;
+.fourth {
+    position: relative;
+    right: -77px;
+    top: -35px;
 }
 .testimonial > img {
     height: 30px;
     width: 30px;
     border-radius: 50%;
-    margin-top: 10px;
+    margin-top: 7px;
+    margin-right: -75px;
 }
 .testimonial {
     display: flex;
@@ -136,6 +146,9 @@ h1 {
     margin-left: 90px;
     margin-top: 10px;
     line-height: 5px;
+}
+.author p {
+    font-size: x-small;
 }
 
 .signup {
@@ -149,6 +162,7 @@ h1 {
     top: 5em;
     left: 60px;
     padding: 20px;
+    font-weight: 700;
 }
 .signin {
     max-width: 610px;
@@ -161,19 +175,26 @@ h1 {
     display: flex;
     max-width: 650px;
     text-align: center;
+    position: absolute;
+    bottom: 5px;
 }
 input {
     width: 400px;
     height: 45px;
     border-radius: 30px;
+    border: none;
+    padding-left: 3rem;
 }
 .second {
     height: 45px; 
     margin-left: 17px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
 }
 .second h4 {
     margin-top: 12px;
-    text-align: center;
+    
 }
 .footer {
     height: 400px;
@@ -242,13 +263,164 @@ h2 {
     color: hsl(0, 0%, 100%);
     cursor: pointer;
 }
-.btn:active {
+.btn:hover {
     background-image: linear-gradient(hsl(176, 68%, 64%),hsl(176, 68%, 64%));  
     cursor: pointer;
 }
-.second:active + .hide {
+.second:hover + .hide {
     display: block;
     visibility: visible;
 }
+.icons {
+    font-size: 2em;
+    float: right;
+    margin-left: 4em;
+    margin-top: 18px;
+}
 
+.icon {
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6px;
+}
+
+.icon-box {
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: inline-block;
+    transition: .4s ease-in-out;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.second-info p:hover, .first-info p:hover{
+    cursor: pointer;
+    color: white;
+    font-size: 1rem;
+}
+.icon-box:hover {
+    color: hsl(176, 68%, 64%);
+    border: solid hsl(176, 68%, 64%) 1px;
+    cursor: pointer;
+}
+
+@media(max-width:768px) {
+    body {
+        background-image: url(./images/bg-curvy-mobile.svg);
+        background-size: 733px 26em;
+        background-position: -120px 450px;
+        margin: 0;
+    }
+    .container {
+        width: 100vw;
+        background-color: hsl(218, 28%, 13%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding-top: 70px;
+        margin-top: -1px;
+    }
+    .center {
+        max-width: 360px;
+        margin: 3.5em 0px 0px 3.5em ;
+        text-align: center;
+    }
+    .first {
+        margin-left: 2.5em;
+    }
+    .secondclass {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin: 0px;
+        grid-gap: 30px;
+    }
+    .thirdclass {
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+    .right h2 {
+       max-width: 409px;
+    }
+    .right p {
+        max-width: 409px;
+        white-space: wrap;
+        font-size: large;
+        
+    }
+    .fourthclass {
+        flex-direction: column;
+        margin: 0px;
+        
+    }
+    .fourth {
+        width: 45px;
+       top: 29px;
+       left: 35px;
+    }
+    
+    .box {
+        margin-top: 20px;
+    }
+    .signup {
+        width: 450px;
+        height: 400px;
+        display: block;
+        margin: 0px;
+        margin-right: 95px;
+        top: 100px;
+    }
+    .signin p {
+        max-width: 270px;
+    }
+    .signin h2 {
+        max-width: 300px;
+    }
+    .input {
+        display: block;
+        top: 230px;
+    }
+    input {
+        width: 230px;
+    }
+    .second {
+        width: 230px;
+        height: 45px;
+        padding: 5px;
+        margin-top: 10px;
+    }
+    .hide {
+        margin: 0px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer {
+        height: 900px;
+        top: -90px;
+    }
+    .information {
+      padding: 220px 0px 0px 70px;  
+    }
+    .infocenter {
+        display: flex;
+        flex-direction: column;
+    }
+    .Contacts, .ourinfo {
+        display: block;
+    }
+    .second-info {
+      padding-top: 0px;  
+    }
+}
 
