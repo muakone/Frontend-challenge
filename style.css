@@ -1,5 +1,6 @@
-body {
+.contentwrapper {
     background-color: hsl(217, 28%, 15%);
+    width: 100%;
     margin: 0px;
     color: hsl(0, 0%, 100%);
     background-image: url(./images/bg-curvy-desktop.svg);
@@ -7,6 +8,7 @@ body {
     background-size: 84em 350px;
     background-repeat: no-repeat;
     line-height: 25px;
+    padding-top: 20px;
     
 }
 p {
@@ -62,7 +64,7 @@ b {
 
 .container {
     background-color: hsl(218, 28%, 13%);
-    margin-top: 130px;
+    margin-top: 80px;
     display: block;
     text-align: center;
 }
@@ -310,10 +312,11 @@ h2 {
 }
 
 @media(max-width:768px) {
-    body {
+    .contentwrapper {
+        width: 790px;
         background-image: url(./images/bg-curvy-mobile.svg);
-        background-size: 600px 390px;
-        background-position: -120px 450px;
+        background-size: 790px 390px;
+        background-position: 20px 450px;
         margin: 0;
     }
     .container {
@@ -325,15 +328,13 @@ h2 {
         align-items: center;
         padding-top: 70px;
         margin-top: -1px;
-        margin: 0px;
     }
     .center {
         max-width: 360px;
-        margin: 3.5em 0px 0px 3.5em ;
-        text-align: center;
+        margin: .5em 0px 0px 15em ;
     }
     .first {
-        margin-left: 2.5em;
+        margin-left: 4em;
     }
     .secondclass {
         display: flex;
@@ -421,6 +422,10 @@ h2 {
     }
     .second-info {
       padding-top: 0px;  
+    }
+    .icons {
+        margin: 0px;
+        text-align: center;
     }
 }
 
