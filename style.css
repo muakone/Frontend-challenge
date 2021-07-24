@@ -1,11 +1,10 @@
 .contentwrapper {
     background-color: hsl(217, 28%, 15%);
-    width: 100%;
-    margin: 0px;
+    width: 1500px;
     color: hsl(0, 0%, 100%);
     background-image: url(./images/bg-curvy-desktop.svg);
-    background-position: 0px 32em;
-    background-size: 84em 350px;
+    background-position: 0px 31em;
+    background-size: 94em 350px;
     background-repeat: no-repeat;
     line-height: 25px;
     padding-top: 20px;
